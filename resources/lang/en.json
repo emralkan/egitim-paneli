@@ -1,0 +1,51 @@
+{
+
+    "auth.auth" : "Log In",
+    "auth.authtext" : "Step into a World Open to Innovations!",
+    "auth.email" : "E-Mail",
+    "auth.needhelp" : "Need Help ?",
+    "auth.emailcreate" : "Enter Your Email Address",
+    "auth.password" : "Password",
+    "auth.forgotpassword" : "I forgot my password",
+    "auth.createpassword" : "Enter Your Password",
+    "auth.noaccount" : "Don't you have an account?",
+    "auth.createaccount" : "Create an account.",
+    "auth.reserved" : "All Rights Reserved.",
+    "home.hosgeldiniz" : "All Rights Reserved.",
+
+
+    "auth.slide1title" : "Bionic Robot and the Future of Technology",
+    "auth.slide1content" : "Bionic Robotics is a subfield of intelligent robotic systems that mimics the movement and behavior of biological organisms. Designed by drawing inspiration from nature, these robots can operate in a more functional and impressive way for humans.",
+    "auth.slide2title" : "Robotics Coding Education: Taking Steps to Develop Future Skills",
+    "auth.slide2content" : "Robotics coding education is a crucial learning area that prepares children and young people for the future in today's digital world. This education contributes to the development of STEM (Science, Technology, Engineering, and Mathematics) skills, supporting their integration into the future job market.",
+    "auth.slide3title" : "Innovative Technologies Brought by Robotics Coding",
+    "auth.slide3content" : "In today's rapidly advancing technological landscape, robotics coding stands out as a field with diverse applications across various sectors and notable potential for the future. Through robotics coding, the development of next-generation technologies and the creation of innovative solutions that simplify our lives become possible.",
+
+
+
+    "register.register" : "Sign up",
+    "register.newaccount" : "Create a New Account",
+    "register.namesurname" : "First Name Last Name",
+    "register.mail" : "E-Mail",
+    "register.phone" : "Contact Number",
+    "register.password" : "Password",
+    "register.educationtype" : "Select Education Type",
+    "register.makeaselection" : "Make a selection",
+    "register.individual" : "Individual",
+    "register.corporate" : "Corporate",
+
+
+    "register.slide1title" : "Bionic Robot and the Future of Technology",
+    "register.slide1content" : "Bionic Robotics is a subfield of intelligent robotic systems that mimics the movement and behavior of biological organisms. Designed by drawing inspiration from nature, these robots can operate in a more functional and impressive way for humans.",
+    "register.slide2title" : "Robotics Coding Education: Taking Steps to Develop Future Skills",
+    "register.slide2content" : "Robotics coding education is a crucial learning area that prepares children and young people for the future in today's digital world. This education contributes to the development of STEM (Science, Technology, Engineering, and Mathematics) skills, supporting their integration into the future job market.",
+    "register.slide3title" : "Innovative Technologies Brought by Robotics Coding",
+    "register.slide3content" : "In today's rapidly advancing technological landscape, robotics coding stands out as a field with diverse applications across various sectors and notable potential for the future. Through robotics coding, the development of next-generation technologies and the creation of innovative solutions that simplify our lives become possible.",
+
+
+
+
+
+
+    "BIOROBOTEC Eğitim Setine Hoş Geldiniz." : "Wellcome to BIOROBOTEC"
+}

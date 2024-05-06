@@ -1,0 +1,98 @@
+
+@extends('backend.template.template')
+@section('content')
+    <div class="nk-wrap ">
+        <div class="nk-header nk-header-fixed is-light">
+            <div class="container-fluid">
+
+            </div>
+        </div>
+        <div class="nk-content ">
+            <div class="container-fluid">
+                <div class="nk-content-inner">
+                    <div class="nk-content-body">
+                        <div class="components-preview wide-md mx-auto">
+                            <div class="nk-block-head nk-block-head-lg wide-sm">
+                                <div class="nk-block-head-content">
+                                    <div class="nk-block-head-sub"><a class="back-to" href="html/general/components.html"><em class="icon ni ni-arrow-left"></em><span>Geri Dön</span></a></div>
+                                    <h2 class="nk-block-title fw-normal">Eğitim Oluştur</h2>
+                                    <div class="nk-block-des">
+                                        <p class="lead">Aşağıda Bulunan Formu Doldurarak Eğitim Oluşturabilirsiniz</a>.</p>
+                                    </div>
+                                </div>
+                            </div><!-- .nk-block-head -->
+                            <div class="nk-block nk-block-lg">
+                                <div class="card card-bordered">
+                                    <div class="card-inner">
+                                        <form action="{{route('education-created')}}" method="post" class="form-validate" enctype="multipart/form-data">
+
+                                        @csrf
+                                            <div class="row g-gs">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label" for="fv-full-name">Eğitim Adı</label>
+                                                        <div class="form-control-wrap">
+                                                            <input type="text" class="form-control" id="fv-full-name" name="name" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label" for="fv-subject">Açıklama</label>
+                                                        <div class="form-control-wrap">
+                                                            <input type="text" class="form-control" id="subject" name="contents" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Paket İçeriği Seçiniz</label>
+                                                        <div class="form-control-wrap">
+                                                            <select class="form-select"  data-placeholder="Select Multiple options" name="package_options[]">
+                                                                @if(isset($userData['package']) && is_array($userData['package']))
+                                                                    @foreach($userData['package'] as $package)
+                                                                        <option value="{{ $package['id'] }}">{{ $package['name'] }}</option>
+                                                                    @endforeach
+                                                                @else
+                                                                    <option value="default_option">No Education Data</option>
+                                                                @endif
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Eğitim İçi Oyunları Seçiniz</label>
+                                                        <div class="form-control-wrap">
+                                                            <select class="form-select" multiple="multiple" name="games[]" data-placeholder="Oyunları Seçiniz">
+                                                                @foreach ($userData['games'] as $module)
+                                                                    <option value="{{ $module['id'] }}">{{ $module['name'] }}</option>
+                                                                @endforeach
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <button type="submit" class="btn btn-lg btn-primary">Gönder</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!-- .nk-block -->
+
+                        </div><!-- .components-preview -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+@endsection

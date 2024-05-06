@@ -1,0 +1,59 @@
+{
+    "auth.login" : "Giriş Yap",
+    "auth.email" : "E-Mail",
+    "auth.authtext" : "Yeniliklere Açılan Dünya İçin Giriş Yap !\n",
+    "auth.needhelp" : "Yardıma mı ihtiyacınız var ?",
+    "auth.emailcreate" : "E-Mail Adresinizi Giriniz",
+    "auth.password" : "Şifre",
+    "auth.forgotpassword" : "Şifremi Unuttum",
+    "auth.createpassword" : "Şifrenizi Giriniz",
+    "auth.noaccount" : "Hesabınız Yok Mu ?",
+    "auth.createaccount" : "Hesap Oluştur",
+    "auth.reserved" : "Her hakkı saklıdır.",
+    "home.hosgeldiniz" : "All Rights Reservsfasdfed.",
+
+
+    "auth.slide1title" : "Bionik Robot Ve Geleceğin Teknolojisi",
+    "auth.slide1content" : "Bionik Robotis, biyolojik organizmaların hareket ve davranışlarını taklit ederek geliştirilen akıllı robotik sistemlerin bir alt dalıdır. Doğadan ilham alarak tasarlanan bu robotlar, insanlar için daha işlevsel ve etkileyici bir şekilde çalışabilir.",
+    "auth.slide2title" : "Robotik Kodlama Eğitimi: Geleceğin Yeteneklerini Geliştiren Adım",
+    "auth.slide2content" : "Robotik kodlama eğitimi, günümüzün dijital dünyasında çocukların ve gençlerin geleceğe hazırlanmalarını sağlayan önemli bir öğrenme alanıdır. Bu eğitim, STEM (Bilim, Teknoloji, Mühendislik ve Matematik) becerilerinin geliştirilmesine katkı sağlayarak gelecekteki iş dünyasına entegre olmalarını destekler.",
+    "auth.slide3title" : "Robotik Kodlama Ile Gelen Yenilikçi Teknolojiler",
+    "auth.slide3content" : "Robotik kodlama, teknolojinin hızla ilerlediği günümüzde, birçok sektörde farklı uygulamaları ve gelecekteki potansiyeliyle dikkat çeken bir alandır. Robotik kodlama sayesinde, yeni nesil teknolojilerin geliştirilmesi ve hayatımızı kolaylaştıran yenilikçi çözümlerin üretilmesi mümkün hale gelmektedir.",
+
+
+
+
+    "register.register" : "Kayıt Ol",
+    "register.newaccount" : "Yeni Bir Hesap Oluşturun",
+    "register.namesurname" : "Ad Soyad",
+    "register.mail" : "E-Mail",
+    "register.phone" : "İletişim Numarası",
+    "register.password" : "Şifre",
+    "register.educationtype" : "Eğitim Tipi Seçiniz",
+    "register.makeaselection" : "Seçim Yapınız",
+    "register.individual" : "Bireysel",
+    "register.corporate" : "Kurumsal",
+
+
+
+    "register.slide1title" : "Bionik Robot Ve Geleceğin Teknolojisi",
+    "register.slide1content" : "Bionik Robotis, biyolojik organizmaların hareket ve davranışlarını taklit ederek geliştirilen akıllı robotik sistemlerin bir alt dalıdır. Doğadan ilham alarak tasarlanan bu robotlar, insanlar için daha işlevsel ve etkileyici bir şekilde çalışabilir.",
+    "register.slide2title" : "Robotik Kodlama Eğitimi: Geleceğin Yeteneklerini Geliştiren Adım",
+    "register.slide2content" : "Robotik kodlama eğitimi, günümüzün dijital dünyasında çocukların ve gençlerin geleceğe hazırlanmalarını sağlayan önemli bir öğrenme alanıdır. Bu eğitim, STEM (Bilim, Teknoloji, Mühendislik ve Matematik) becerilerinin geliştirilmesine katkı sağlayarak gelecekteki iş dünyasına entegre olmalarını destekler.",
+    "register.slide3title" : "Robotik Kodlama Ile Gelen Yenilikçi Teknolojiler",
+    "register.slide3content" : "Robotik kodlama, teknolojinin hızla ilerlediği günümüzde, birçok sektörde farklı uygulamaları ve gelecekteki potansiyeliyle dikkat çeken bir alandır. Robotik kodlama sayesinde, yeni nesil teknolojilerin geliştirilmesi ve hayatımızı kolaylaştıran yenilikçi çözümlerin üretilmesi mümkün hale gelmektedir.",
+
+
+
+
+
+
+
+
+
+
+    "auth.slide3contednt" : "Robotik kodlama, teknolojinin hızla ilerlediği günümüzde, birçok sektörde farklı uygulamaları ve gelecekteki potansiyeliyle dikkat çeken bir alandır. Robotik kodlama sayesinde, yeni nesil teknolojilerin geliştirilmesi ve hayatımızı kolaylaştıran yenilikçi çözümlerin üretilmesi mümkün hale gelmektedir."
+
+
+
+}
